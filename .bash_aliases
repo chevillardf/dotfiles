@@ -18,8 +18,8 @@ alias ws="ssh 192.168.0.140"
 alias py37="conda activate py37"
 
 # rsync
-alias synchro_xps_ws="sh ~/Documents/scripts/synchro_docs_xps_ws.sh"
-alias synchro_ws_xps="sh ~/Documents/scripts/synchro_docs_ws_xps.sh"
+alias synchro_xps_ws="sh ~/Documents/scripts/sync_docs_xps_ws.sh"
+alias synchro_ws_xps="sh ~/Documents/scripts/sync_docs_ws_xps.sh"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
