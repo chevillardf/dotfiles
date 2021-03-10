@@ -13,6 +13,7 @@ alias src="source ~/.bashrc"
 # network
 alias htpc="ssh htpc"
 alias ws="ssh workstation"
+alias xps="ssh xps"
 
 # env
 alias py37="conda activate py37"
