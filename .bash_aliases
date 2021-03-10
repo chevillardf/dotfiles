@@ -6,13 +6,20 @@ alias ...="cd ../.."
 
 # Shortcuts
 alias dl="cd ~/Downloads"
+alias d="cd ~/Documents"
 alias g="git"
+alias src="source ~/.bashrc"
 
 # network
-alias htpc="ssh florent@192.168.0.66"
+alias htpc="ssh 192.168.0.152"
+alias ws="ssh 192.168.0.140"
 
 # env
-alias rdkit="conda activate rdkit"
+alias py37="conda activate py37"
+
+# rsync
+alias synchro_xps_ws="sh ~/Documents/scripts/synchro.docs_xps_ws.sh"
+alias synchro_ws_xps="sh ~/Documents/scripts/synchro.docs_ws_xps.sh"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
