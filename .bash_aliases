@@ -10,6 +10,9 @@ alias d="cd ~/Documents"
 alias g="git"
 alias src="source ~/.bashrc"
 
+# exe
+alias jupy="jupyter notebook"
+
 # network
 alias htpc="ssh htpc"
 alias ws="ssh workstation"
