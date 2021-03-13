@@ -1,17 +1,23 @@
 #!/usr/bin/env bash
 
-# Easier navigation:
+# easier navigation:
 alias ..="cd .."
 alias ...="cd ../.."
+alias ....='cd ../../..'
 
-# Shortcuts
+# folders
 alias dl="cd ~/Downloads"
 alias d="cd ~/Documents"
-alias g="git"
+alias tv='cd /mnt/series'
+alias movies='cd /mnt/movies'
+
+# misc
 alias src="source ~/.bashrc"
 
 # exe
+alias g="git"
 alias jupy="jupyter notebook"
+alias tonido='sh /usr/local/tonido/tonido.sh start'
 
 # network
 alias htpc="ssh htpc"
