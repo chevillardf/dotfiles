@@ -13,6 +13,8 @@ alias movies='cd /mnt/movies'
 
 # misc
 alias src="source ~/.bashrc"
+alias pull="git pull origin"
+alias update="sudo apt update && sudo apt upgrade"
 
 # exe
 alias g="git"
@@ -41,16 +43,16 @@ else # macOS `ls`
 fi
 
 # List all files colorized in long format
-alias l="ls -lF ${colorflag}"
+alias ll="ls -lF ${colorflag}"
 
 # List all files colorized in long format, excluding . and ..
-alias ll="ls -lAF ${colorflag}"
+alias la="ls -lAF ${colorflag}"
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
 # Always use color output for `ls`
-alias ls="command ls ${colorflag}"
+alias l="command ls ${colorflag}"
 
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
