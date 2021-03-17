@@ -25,6 +25,7 @@ alias tonido='sh /usr/local/tonido/tonido.sh start'
 alias htpc="ssh htpc"
 alias ws="ssh workstation"
 alias xps="ssh xps"
+alias nas="ssh nas"
 
 # env
 alias py37="conda activate py37"
