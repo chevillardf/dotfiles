@@ -8,8 +8,9 @@ alias ....='cd ../../..'
 # folders
 alias dl="cd ~/Downloads"
 alias d="cd ~/Documents"
-alias tv='cd /mnt/series'
-alias movies='cd /mnt/movies'
+alias tv="cd /mnt/series"
+alias movies="cd /mnt/movies"
+alias dt="cd /mnt/data"
 
 # misc
 alias src="source ~/.bashrc"
