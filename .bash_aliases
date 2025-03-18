@@ -20,16 +20,14 @@ alias update="sudo apt update && sudo apt upgrade"
 # exe
 alias g="git"
 alias jupy="jupyter notebook"
-alias tonido='sh /usr/local/tonido/tonido.sh start'
 
 # network
 alias htpc="ssh htpc"
 alias ws="ssh workstation"
-alias xps="ssh xps"
 alias nas="ssh nas"
 
 # env
-alias py37="conda activate py37"
+alias py310="conda activate py310"
 
 # rsync
 alias synchro_xps_ws="sh ~/Documents/scripts/sync_docs_xps_ws.sh"
