@@ -22,9 +22,10 @@ alias g="git"
 alias jupy="jupyter notebook"
 
 # network
-alias htpc="ssh htpc"
+alias htpc="ssh HTPC"
 alias ws="ssh workstation"
-alias nas="ssh nas"
+alias nas="ssh NAS"
+alias p14s="ssh P14s"
 
 # env
 alias py310="conda activate py310"
