@@ -22,17 +22,17 @@ alias g="git"
 alias jupy="jupyter notebook"
 
 # network
-alias htpc="ssh HTPC"
+alias htpc="ssh htpc"
 alias ws="ssh workstation"
-alias nas="ssh NAS"
-alias p14s="ssh P14s"
+alias nas="ssh nas"
+alias p14s="ssh p14s"
 
 # env
 alias py310="conda activate py310"
 
 # rsync
-alias synchro_xps_ws="sh ~/Documents/scripts/sync_docs_xps_ws.sh"
-alias synchro_ws_xps="sh ~/Documents/scripts/sync_docs_ws_xps.sh"
+alias synchro_p14s_ws="sh ~/Documents/scripts/rsync/sync_docs_p14s_ws.sh"
+alias synchro_ws_p14s="sh ~/Documents/scripts/rsync/sync_docs_ws_p14s.sh"
 
 # List all files colorized in long format
 alias ll="ls -lF ${colorflag}"
