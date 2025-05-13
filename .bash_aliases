@@ -11,11 +11,12 @@ alias d="cd ~/Documents"
 alias tv="cd /mnt/series"
 alias movies="cd /mnt/movies"
 alias dt="cd /mnt/data"
-
+alias p="cd ~/Documents/projects"
 # misc
 alias src="source ~/.bashrc"
 alias pull="git pull origin"
 alias update="sudo apt update && sudo apt upgrade"
+alias clean="sudo apt autoremove && sudo apt autoclean"
 
 # exe
 alias g="git"
@@ -33,6 +34,8 @@ alias py310="conda activate py310"
 # rsync
 alias synchro_p14s_ws="sh ~/Documents/scripts/rsync/sync_docs_p14s_ws.sh"
 alias synchro_ws_p14s="sh ~/Documents/scripts/rsync/sync_docs_ws_p14s.sh"
+alias backup_data="~/Documents/scripts/rsync/backup_data_ws_nas.sh"
+alias backup_docs="~/Documents/scripts/rsync/backup_docs_to_nas.sh"
 
 # List all files colorized in long format
 alias ll="ls -lF ${colorflag}"
