@@ -12,6 +12,8 @@ alias tv="cd /mnt/series"
 alias movies="cd /mnt/movies"
 alias dt="cd /mnt/data"
 alias p="cd ~/Documents/projects"
+alias bb="cd ~/Documents/projects/BB-SAR"
+
 # misc
 alias src="source ~/.bashrc"
 alias pull="git pull origin"
