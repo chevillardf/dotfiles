@@ -23,6 +23,8 @@ alias clean="sudo apt autoremove && sudo apt autoclean"
 # exe
 alias g="git"
 alias jupy="jupyter notebook"
+alias mend="~/Programs/mendeley/mendeley-reference-manager-2.134.0-x86_64.AppImage"
+alias rs="python manage.py runserver"
 
 # network
 alias htpc="ssh htpc"
