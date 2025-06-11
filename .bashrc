@@ -37,5 +37,5 @@ unset __conda_setup
 
 if command -v conda &> /dev/null; then
     source "$(conda info --base)/etc/profile.d/conda.sh"
-    conda activate py310
+    conda activate py311
 fi

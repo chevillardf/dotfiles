@@ -33,7 +33,7 @@ alias nas="ssh nas"
 alias p14s="ssh p14s"
 
 # env
-alias py310="conda activate py310"
+alias py311="conda activate py311"
 
 # rsync
 alias synchro_p14s_ws="sh ~/Documents/scripts/rsync/sync_docs_p14s_ws.sh"
