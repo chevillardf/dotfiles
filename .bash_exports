@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export AIRFLOW_HOME=~/Documents/projects/mol_harvester/airflow
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/florent/Programs/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
