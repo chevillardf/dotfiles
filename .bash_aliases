@@ -35,6 +35,7 @@ alias p14s="ssh p14s"
 # env
 alias py311="conda activate py311"
 alias af="conda deactivate && conda activate airflow_etl"
+alias pymol-env="conda deactivate & conda activate pymol-env"
 
 # rsync
 alias synchro_p14s_ws="sh ~/Documents/scripts/rsync/sync_docs_p14s_ws.sh"
