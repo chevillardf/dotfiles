@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 export AIRFLOW_HOME=~/Documents/projects/mol_harvester/airflow
+export PATH=~/Programs/rosetta/main:$PATH
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
