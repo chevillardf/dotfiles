@@ -37,6 +37,7 @@ alias py311="conda activate py311"
 alias etl="conda activate etl_mols"
 alias env_pymol="conda activate pymol-env"
 alias env_boltz_cpu="conda activate boltz2_cpu"
+alias ml="conda activate env_ml"
 
 # rsync
 alias synchro_p14s_ws="sh ~/Documents/scripts/rsync/sync_docs_p14s_ws.sh"
